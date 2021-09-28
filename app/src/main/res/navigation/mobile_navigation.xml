@@ -27,4 +27,10 @@
         android:name="kg.geektech.taskapp.TaskFragment"
         android:label="fragment_task"
         tools:layout="@layout/fragment_task" />
+    <fragment
+        android:id="@+id/navigation_fourth"
+        android:name="kg.geektech.taskapp.FourthFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" />
+
 </navigation>
