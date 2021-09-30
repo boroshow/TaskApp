@@ -38,17 +38,11 @@ public class FourthFragment extends Fragment{
             @Override
             public void onClick(View view) {
 
-                  final int RESULT_GALLERY = 0;
-                Intent galleryIntent = new Intent(
-                        Intent.ACTION_PICK,
-                        android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                startActivityForResult(galleryIntent , RESULT_GALLERY );
-
-               /* Intent intent = new Intent();
-                intent.setAction(android.content.Intent.ACTION_VIEW);
+                Intent intent = new Intent(Intent.ACTION_PICK);
                 intent.setType("image/*");
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);*/
+                startActivity(intent);
+
+
             }
         });
 
